@@ -1,12 +1,9 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { DetailsScreen } from '../screens/DetailsScreen';
 import { IndexScreen } from '../screens/IndexScreen';
-import { InformationScreen } from '../screens/InformationScreen';
 import { LoginScreen } from '../screens/LoginScreen';
-import { DetailsStack } from './DetailsStack';
-import { IndexStack } from './IndexStack';
+
 
 import { Button, Icon, ThemeProvider } from 'react-native-elements';
 import { ProfileStack } from './ProfileStack';
